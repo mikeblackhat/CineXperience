@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Xperience</title>
+    <link rel="icon" href="images/logo.ico">
+
+    <!-- Estilos CSS obtenidos desde Boostrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/Style.css">
+
+    <!-- Iconos FontAwesome -->
+    <script src="https://kit.fontawesome.com/4db3f232fb.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <header class="header">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <a class="navbar-brand" href="index.html">
+                <img src="images/logo_principal.png" alt="Logo_Principal" class="header__logo-image" width="150">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Cartelera</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="proximo.html">Próximos Estrenos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="dulceria.html">Dulcería</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="promotions.html">Promociones</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contáctanos</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="card">
+                    <img src="images/dulceria1.png" alt="" class="card-img-top" />
+                    <div class="card-body">
+                        <h5 class="card-title">DULCERIA</h5>
+                        <h6 class="card-text">
+                            Combo 2 Salada OL CC <br />
+                            1 canchita Gigante (Dulce) + 2 Bebidas (32oz). <br />
+                            Sabor bebida sujeto a stock/ canchita sin refill <br />
+                        </h6>
+                        <h3 class="card-text">S/43.00</h3>
+                        <div class="form-group">
+                            <label for="cantidad">Cantidad:</label>
+                           <div> <input type="number" class="form-control" id="cantidad" /></div>
+                        </div>
+                        <div class="form-group">
+                            <label for="bebida">Bebida:</label><br />
+                            <div class="form-check form-check-inline">
+                                <input type="radio" class="form-check-input" name="bebida" id="cocacola" />
+                                <label class="form-check-label" for="cocacola">COCA COLA</label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input type="radio" class="form-check-input" name="bebida" id="inkacola" />
+                                <label class="form-check-label" for="inkacola">INKA COLA</label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input type="radio" class="form-check-input" name="bebida" id="fanta" />
+                                <label class="form-check-label" for="fanta">FANTA</label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input type="radio" class="form-check-input" name="bebida" id="sprite" />
+                                <label class="form-check-label" for="sprite">SPRITE</label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input type="radio" class="form-check-input" name="bebida" id="crush" />
+                                <label class="form-check-label" for="crush">CRUSH</label>
+                            </div>
+                        </div>
+                        <button type="button" class="btn btn-primary">Confirmar orden</button>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="col-md-6">
+                <div class="card">
+                    <img src="images/dulceria2.png" alt="" class="card-img-top" />
+                    <div class="card-body">
+                        <h5 class="card-title">DULCERIA</h5>
+                        <h6 class="card-text">
+                            Combo 2 Dulce OL CC <br />
+                            1 canchita Gigante (Salado) + 2 Bebidas (32oz). <br />
+                            Sabor bebida sujeto a stock/ canchita sin refill
+                        </h6>
+                        <h3 class="card-text">S/43.00</h3>
+                        <div class="form-group">
+                            <label for="cantidad2">Cantidad:</label>
+                            <input type="number" class="form-control" id="cantidad2" />
+                        </div>
+                        <div class="form-group">
+                            <label for="bebida2">Bebida:</label><br />
+                            <div class="form-check form-check-inline">
+                                <input type="radio" class="form-check-input" name="bebida2" id="cocacola2" />
+                                <label class="form-check-label" for="cocacola2">COCA COLA</label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input type="radio" class="form-check-input" name="bebida2" id="inkacola2" />
+                                <label class="form-check-label" for="inkacola2">INKA COLA</label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input type="radio" class="form-check-input" name="bebida2" id="fanta2" />
+                                <label class="form-check-label" for="fanta2">FANTA</label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input type="radio" class="form-check-input" name="bebida2" id="sprite2" />
+                                <label class="form-check-label" for="sprite2">SPRITE</label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input type="radio" class="form-check-input" name="bebida2" id="crush2" />
+                                <label class="form-check-label" for="crush2">CRUSH</label>
+                            </div>
+                        </div>
+                        <button type="button" class="btn btn-primary">Confirmar orden</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+    <footer class="pie-pagina">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 text-center">
+                    <figure>
+                        <a href="#">
+                            <img src="images/logo_principal.png" alt="Logo_Principal" style="width: 50%;" />
+                        </a>
+                    </figure>
+                </div>
+                <div class="col-md-6">
+                    <h2 class="text-white">SOBRE NOSOTROS</h2>
+                    <p class="text-white">Un lugar de entretenimiento y diversión donde disfrutar de los ultimos
+                        estrenos en películas.</p>
+                </div>
+                <div class="col-md-3">
+                    <h2 class="text-white">SÍGUENOS</h2>
+                    <div class="red-social">
+                        <a href="https://www.facebook.com/" class="fa fa-facebook text-white"></a>
+                        <a href="https://www.twitter.com/" class="fa fa-twitter text-white"></a>
+                        <a href="https://www.youtube.com/" class="fa fa-youtube text-white"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="grupo-2">
+            <small id="year" class="text-white"> </small>
+        </div>
+
+        <script>
+            // Obtén el año actual
+            const year = new Date().getFullYear();
+
+            // Actualiza el contenido del elemento HTML con el año actual
+            document.getElementById('year').textContent = `© ${year} Cine Xperience Todos los Derechos Reservados`;
+        </script>
+
+    </footer>
+    <!-- JavaScript de Bootstrap (jQuery y Popper.js) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>

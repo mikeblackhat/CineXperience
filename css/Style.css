@@ -1,0 +1,62 @@
+
+body {
+    background-color: black;
+}
+h1{
+    color: white;
+}
+h2{
+    color: white;
+}
+h3{
+    color: #0a141d;
+}
+p{
+    color:white;
+}
+.movie-image {
+    float: left;
+    margin-right: 20px;
+    max-width: 100%;
+}
+
+.sinopsis {
+    text-align: left;
+}
+
+.embed-responsive {
+    margin-top: 20px;
+}
+
+.form-group{
+color: rgb(133, 133, 133);
+}
+
+.pie-pagina {
+    background-color: #0a141d;
+    padding: 20px 0;
+    margin-top: 40px; /* Ajusta el margen superior según tus preferencias */
+}
+
+.pie-pagina .container {
+    text-align: center;
+    /* Centrar el contenido */
+}
+
+.pie-pagina figure img {
+    max-width: 100%;
+}
+
+.pie-pagina h2,
+.pie-pagina p {
+    color: white;
+    /* Cambiar el color del texto a blanco */
+}
+
+.pie-pagina .grupo-2 {
+    text-align: center;
+    background-color: #0a141d;
+    padding: 15px 0;
+    /* Espaciado vertical */
+    color: white;
+}

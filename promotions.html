@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Xperience</title>
+    <link rel="icon" href="images/logo.ico">
+
+    <!-- Estilos CSS obtenidos desde Boostrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/Style.css">
+
+    <!-- Iconos FontAwesome -->
+    <script src="https://kit.fontawesome.com/4db3f232fb.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <header class="header">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <a class="navbar-brand" href="index.html">
+                <img src="images/logo_principal.png" alt="Logo_Principal" class="header__logo-image" width="150">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Cartelera</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="proximo.html">Próximos Estrenos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="dulceria.html">Dulcería</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="promotions.html">Promociones</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contáctanos</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- contenedor de promociones -->
+<div class="container-fluid mt-5">
+    <div class="row">
+        <!-- Promoción 1 -->
+        <div class="col-md-4 mb-4">
+            <div class="text-center">
+                <h2 class="titulo">Promo Prime con Entel</h2>
+                <img src="images/entel2x1.png" alt="Imagen promocional" class="img-fluid">
+                <p>Cine todo el año...</p>
+                <button class="btn btn-primary">
+                    <span>Términos y condiciones</span>
+                </button>
+            </div>
+        </div>
+        <!-- Promoción 2 -->
+        <div class="col-md-4 mb-4">
+            <div class="text-center">
+                <h2 class="titulo">Promo Prime con Entel</h2>
+                <img src="images/oferta2.png" alt="Promo Prime con Entel" class="img-fluid">
+                <p>Disfruta las salas Prime con Entel con 25% de descuento</p>
+                <button class="btn btn-primary">
+                    <span>Términos y condiciones</span>
+                </button>
+            </div>
+        </div>
+        <!-- Promoción 3 -->
+        <div class="col-md-4 mb-4">
+            <div class="text-center">
+                <h2 class="titulo">Promo AMEX</h2>
+                <img src="images/oferta3.png" alt="Promo AMEX" class="img-fluid">
+                <p>Obtén descuentos con tu tarjeta American Express</p>
+                <button class="btn btn-primary">
+                    <span>Términos y condiciones</span>
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+    <footer class="pie-pagina">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 text-center">
+                    <figure>
+                        <a href="#">
+                            <img src="images/logo_principal.png" alt="Logo_Principal" style="width: 50%;" />
+                        </a>
+                    </figure>
+                </div>
+                <div class="col-md-6">
+                    <h2 class="text-white">SOBRE NOSOTROS</h2>
+                    <p class="text-white">Un lugar de entretenimiento y diversión donde disfrutar de los ultimos
+                        estrenos en películas.</p>
+                </div>
+                <div class="col-md-3">
+                    <h2 class="text-white">SÍGUENOS</h2>
+                    <div class="red-social">
+                        <a href="https://www.facebook.com/" class="fa fa-facebook text-white"></a>
+                        <a href="https://www.twitter.com/" class="fa fa-twitter text-white"></a>
+                        <a href="https://www.youtube.com/" class="fa fa-youtube text-white"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="grupo-2">
+            <small id="year" class="text-white"> </small>
+        </div>
+
+        <script>
+            // Obtén el año actual
+            const year = new Date().getFullYear();
+
+            // Actualiza el contenido del elemento HTML con el año actual
+            document.getElementById('year').textContent = `© ${year} Cine Xperience Todos los Derechos Reservados`;
+        </script>
+    </footer>
+    <!-- JavaScript de Bootstrap (jQuery y Popper.js) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>
+
+
+    
